@@ -110,6 +110,11 @@ private:
     vector<BankAccount *> accounts;
 
 public:
+void displayAccountDetails() override
+    {
+        BankAccount::displayAccountDetails();
+        cout << "Overdraft Limit: $" << overdraftLimit << "\n";
+    }
     void createAccount()
     {
         string name;

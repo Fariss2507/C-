@@ -1,0 +1,19 @@
+# include <iostream>
+using namespace std;
+
+class vehicle{
+
+    private:
+    string type;
+    int year;
+    string color;
+    string owner;
+    public:
+    vehicle(string t, int y, string c, string ow){
+       
+        type=t;
+        year =y;
+        color=c;
+        owner=ow;
+    }
+};

@@ -18,7 +18,7 @@ class Date{
             return month;
         }
         else{
-           return  month==1;
+            month=1;
         }
     }
     int setday(){
@@ -27,9 +27,9 @@ class Date{
     int setyear(){
         return year;
     }
-   // void getmonth(){
- // cout<<"Month is "<<month<<endl;
-  //  }
+    void getmonth(){
+  cout<<"Month is "<<month<<endl;
+    }
     void getday(){
         cout<<"Day is"<<day<<endl;
     }
@@ -42,8 +42,8 @@ class Date{
 };
 int main(){
 
-    Date t1(32, 12, 2025);
-   // t1.getmonth();
+    Date t1(2, 12, 2025);
+    t1.getmonth();
     t1.getday();
     t1.getyear();
     t1.displayDate();

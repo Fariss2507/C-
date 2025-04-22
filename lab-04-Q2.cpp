@@ -24,7 +24,7 @@ public:
    
     void push(int value) {
         if (size == capacity) {
-            // Resize the array if it's full
+            
             capacity *= 2;
             int* newArray = new int[capacity];
             for (int i = 0; i < size; ++i) {
@@ -53,6 +53,6 @@ int main() {
     arr.push(60); 
 
     cout << "Array size: " << arr.getSize() << endl;
-
+//cout<<arr.push<<endl;
     return 0;
 }

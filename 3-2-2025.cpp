@@ -25,6 +25,7 @@ class Derived : public Base{
         return a;
     }
 
+    5*
 };
 
 int main()

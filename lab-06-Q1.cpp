@@ -95,6 +95,6 @@ int main() {
     square.generateArea();
     cout << "Square Area: " << square.getArea() << endl;
     cout << "Square sides equal? " << (square.checkSides() ? "Yes" : "No") << endl;
-
+  // acha tw i have use ternary operator here......
     return 0;
 }
