@@ -81,7 +81,7 @@ public:
 };
 
 int main() {
-    Bus myBus("Bus", "Toyota", "Coaster", "White", 2022, 35000,
+    Bus myBus("Bus", "Youtong", "Double Decker", "White", 2022, 35000,
               80, 0, 7.5, 6, 8, 30);
 
     myBus.displayBus();
